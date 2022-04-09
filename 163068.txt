@@ -30,7 +30,41 @@ i ja menuvame kolicinata i potoa so git add . i commit -m pravime commit so pora
 vo shopping_list.txt so nano shopping_list.txt i po promenata pravime
 git add . i potoa git commit -m "Change quantity of item #2".
 
-11)
+11) So komanda git checkout branch2 se prefrluvame na taa granka.
+
+12) Vleguvame vo shopping_list.txt i menuvame naziv na 4tiot proizvod i po zacuvuvanje
+na promenite so git add . i so git commit -m pravime commit so poraka
+"Modify item #4".
+
+13) Povtorno vleguvame vo shopping_list.txt i dodavame 6ti proizvod i potoa 
+so git add . i so git commit -m pravime porakata da glasi "Modify item #4 and add item #6".
+
+14) So git checkout master se prefrluvame na master i so komanda 
+git merge branch1 pravime spojuvanje i ni izleguva:
+
+Auto-merging shopping_list.txt
+Merge made by the 'ort' strategy.
+ shopping_list.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+** Toa znaci deka e uspesno bez konflikti.
+
+15) git merge branch2 dokolku go spoime so master (so isti komandi kako i branch1) ni ja dava 
+slednava greska:
+Auto-merging shopping_list.txt
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+16) Dodavame commit so poraka "Add docs" na indeks.txt dokument
+
+17) So komanda git push origin postavuvame na nasiot repozitorium.
+
+
+
+
+
+
+
+
 
 
 
