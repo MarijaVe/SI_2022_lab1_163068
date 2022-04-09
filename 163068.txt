@@ -18,6 +18,27 @@ git commit - m.
  a) git branch branch1
  b) git branch branch2
 
+7) So komanda git checkout branch1 se prefrluvama na granka 1
+
+8) Za da ja smenime kolicinata na 5tiot proizvod vleguvame vo nano shopping_list.txt
+i ja menuvame kolicinata i potoa so git add . i commit -m pravime commit so poraka
+“Change quantity of item #5”.
+
+9) So komanda git checkout master se vrakjame na grankata master.
+
+10) Za da napravime promena na kolicina za vtoriot proizvod vleguvame
+vo shopping_list.txt so nano shopping_list.txt i po promenata pravime
+git add . i potoa git commit -m "Change quantity of item #2".
+
+11)
+
+
+
+
+
+
+
+
 
 
 
