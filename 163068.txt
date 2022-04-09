@@ -1,0 +1,25 @@
+Dokumentacija
+
+1) Najprvin go kreirav repozitorium i potoa go klonirav na komjuter i toa go 
+napraviv so komanda git clone https://github.com/MarijaVe/SI_2022_lab1_163068.git
+ 
+2) Otkako go klonirav i vlegov vo nego dodadov tekstualna datoteka
+shopping_list.txt so komanda nano shopping_list.txt i po kreiranjeto vo 
+istata gi dodadov 5te proizvodi.
+3) So komandi git add . i komanda git commit -m "Add 5items to the shopping list"  go napraviv commit.
+
+4) Potoa za da dodadam kolicina povtorno vlegov so nano shopping_list.txt 
+i dodadov kolicina na 5te proizvodi.
+
+5) Commit "Add quantities to the items." mu napraviv so git add .  pa potoa 
+git commit - m.
+
+6) Za da kreiram dve granki toa go napraviv so :
+ a) git branch branch1
+ b) git branch branch2
+
+
+
+
+
+
